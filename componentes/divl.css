@@ -1,0 +1,74 @@
+.caja{
+    width: auto;
+    height: auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    border: 1px solid red;
+}
+
+.cuadro{
+    width: auto;
+    height: 200px;
+    border:1px solid red;
+     display: flex;
+     align-items: center;
+     justify-content:center;
+
+     font-weight: bolder;
+     font-family: monospace;
+
+     border-radius: 20px;
+     margin: 10px;
+}
+
+.uno{
+    background-color: aqua;
+    grid-column: 1/3;
+}
+
+.dos{
+    background-color: black;
+}
+
+ .tres{
+    background-color: blueviolet;
+    height: auto;
+    grid-column: 4/4;
+    grid-row: 1/3;
+ }
+
+ .cuatro{
+    background-color: blue;
+ }
+
+ .cinco{ background-color: brown;
+    height: auto;
+    grid-column: 1/3;
+    grid-row: 3/5;
+}
+
+.seis{
+    background-color: beige;
+}
+
+.siete{
+    background-color: orange;
+}
+.ocho{
+    background-color: green;
+}
+
+.nueve{
+    background-color: gray;
+}
+
+.diez{
+    border: none;
+    box-shadow: none;
+    background-color: burlywood;
+}
+.once{
+    background-color: brown;
+}
